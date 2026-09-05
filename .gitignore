@@ -1,0 +1,21 @@
+node_modules/
+dist/
+build/
+.DS_Store
+*.log
+npm-debug.log*
+
+# backend sqlite data
+backend/data/
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# env
+.env
+.env.local
+
+# editor
+.vscode/*
+!.vscode/extensions.json
